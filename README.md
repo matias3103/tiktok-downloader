@@ -35,3 +35,8 @@ A interface foi criada com o **Qt Designer**, e a lógica principal foi desenvol
 ### 1️⃣ Clonar o repositório
 ```bash
 git clone https://github.com/matias3103/tiktok-downloader.git
+
+⚠️ Para rodar este programa, é necessário:
+- Python 3.10+
+- Módulo tiktok_downloader (`pip install tiktok_downloader`)
+
