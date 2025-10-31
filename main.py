@@ -13,7 +13,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         super().__init__()
         self.setupUi(self)
 
-        base_dir = os.path.dirname(os.path.abspath(__file__))
+        base_dir = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
         image_path = os.path.join(base_dir, "download.gif")
         image_path = os.path.abspath(image_path)
 
